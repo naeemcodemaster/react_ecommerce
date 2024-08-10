@@ -11,7 +11,7 @@ function Cart() {
     return (
         <>
             <Navbar />
-            <div className='container'>
+            <div className='container' style={{marginTop:'50px'}}>
                 <div className='cart_details'>
                     <h2>Cart Details</h2>
                     {shoppingCart.length > 0 ?
